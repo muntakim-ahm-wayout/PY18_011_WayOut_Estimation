@@ -1,6 +1,12 @@
 # Estimation Project #
 
-Welcome to the estimation project.  In this project, you will be developing the estimation portion of the controller used in the CPP simulator.  By the end of the project, your simulated quad will be flying with your estimator and your custom controller (from the previous project)!
+ - a completed estimator that meets the performance criteria for each of the steps:
+   - `QuadEstimatorEKF.cpp`
+   - `config/QuadEstimatorEKF.txt`
+
+ - a re-tuned controller that, in conjunction with your tuned estimator, is capable of meeting the criteria laid out in Step 6:
+   - `QuadController.cpp`
+   - `config/QuadControlParams.txt`
 
 
 
@@ -307,18 +313,6 @@ Up to this point, we have been working with a controller that has been relaxed t
 
 
 
-## Submission ##
 
-For this project, you will need to submit:
-
- - a completed estimator that meets the performance criteria for each of the steps by submitting:
-   - `QuadEstimatorEKF.cpp`
-   - `config/QuadEstimatorEKF.txt`
-
- - a re-tuned controller that, in conjunction with your tuned estimator, is capable of meeting the criteria laid out in Step 6 by submitting:
-   - `QuadController.cpp`
-   - `config/QuadControlParams.txt`
-
- - a write up addressing all the points of the rubric
 
 
